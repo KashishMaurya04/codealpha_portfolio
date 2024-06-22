@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" ,initial-value="1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">  
+        <script src="https://kit.fontawesome.com/c425e24a8.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                <img src="logo.jpg" class="logo">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <!---<li><a href="#">Portfolio</a></li>-->
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1>Hi,I'm <span>Kashish </span><br>Maurya From India</h1>
+                <p>pursuing BSC-IT</p>
+            </div>
+            </div>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="about-col-1">
+                    <img src="kashish.jpg">
+                </div>
+                  <!---------About--------->
+                <div class="about">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I'm Kashish Maurya, currently pursuing BSc IT at Vidyalankar School of Information Technology. 
+                        I have a deep passion for exploring new concepts in technology and sharing my knowledge with others.
+                         I enjoy diving into programming languages and database management, aiming to apply my skills in practical ways. 
+                         Beyond academics, I stay updated with industry trends and love learning through online courses. 
+                         I'm excited about the opportunities ahead in IT and look forward to contributing to impactful projects.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Teaching</span><br></li>
+                            <li><span>Web Development</span><br></li>
+                            <li><span>C++</span><br></li>
+                            <li><span>Communication</span><br></li>
+                            <li><span>C</span><br></li>
+                            <li><span>Drawing</span><br></li>
+                            <li><span>Advance Excel</span><br></li>
+                            <li><span>MSC-IT</span><br></li>
+                            <li><span>Tally Prime</span><br></li>
+                            <li><span>Core Java</span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Teaching</span><br>Home Tution</li>
+                            <li><span>Web Development</span><br>Internpe, CodeAlpha , SkillCraft Technology(internship)</li>
+                            <li><span>C++</span><br>Encryptix(internship)</li>
+                            <li><span>Fundraiser</span><br>Muskurahat Foundation(internship)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>SSC - 90.80%</span><br>Shree Sanatan Dharam Vidyalaya School & jr.College</li>
+                            <li><span>HSC - 90.17%</span><br>Shree Sanatan Dharam Vidyalaya School & jr.College</li>
+                            <li><span>FY BSC-IT : 1st Sem-9.70 SCGPI and 2nd Sem-10 SCGPI</span><br>Vidyalankar School of Information Technology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------services--------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1> 
+                <div class="services-list">
+                    <div>
+                        <i class="fas fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Developing Webpages</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-bug"></i>
+                        <h2>C++</h2>
+                        <p>Work on Real World Object</p>
+                        <a href="#">Learn More</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-person-chalkboard"></i>
+                            <h2>Teaching</h2>
+                            <p>Expert in Maths and Teaching all subjects</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------portfolio
+        <div id="Portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1> 
+                <div class="work-list">
+                    <div class="work">
+                        <img src="" alt="">
+                        <div class="layer">
+
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="" alt="">
+                    </div>
+                    <div class="work">
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
+        </div> -------->
+
+        <!------Contact-->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p>mauryakashish04@gmail.com</p>
+                        <p>89******48</p>
+                        <div class="social-icons">
+                            <img src="fb.jpg" height="30px" width="30px"> 
+                            <img src="insta1.jpg" height="30px" width="30px">
+                            <img src="twitter1.jpg" height="30px" width="30px">  
+                            <img src="link.jpg" height="30px" width="30px">    
+                        </div>
+                        <a href="" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>Copyright @ Kashish</p>
+                </div>
+            </div>
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+           function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+           }
+        </script>
+    </body>
+    </html>
+    
